@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trabajar con objetos literales en JS</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var usuario = {
+			nombre: 'Natanael',
+			edad: 27,
+			sleep: function(sleep) {
+				if (sleep == true ) {
+					console.log('Esta dormido');
+				} else {
+					console.log('No esta dormido');
+				}
+			}
+		}
+
+		console.log(usuario.nombre);
+		usuario.sleep(true);
+
+	</script>
+</body>
+</html>
