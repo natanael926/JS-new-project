@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Clases en java script</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//ahy dos tipos de definir clases en javascript
+		//Literal
+		
+		Carro = {
+			numero_puesto: 4,
+			numero_cilindro: 6,
+			acelera: function(){
+				console.log("Brun brun brun")
+			},
+			frena: function() {
+				console.log(" zzzzzz ")
+			}
+		}
+
+
+		console.log('Por definicion literal');
+		console.log('NUmero de puertas: ' + Carro.numero_puesto);
+		Carro.acelera();
+		Carro.frena();
+
+
+	</script>
+	
+</body>
+</html>
